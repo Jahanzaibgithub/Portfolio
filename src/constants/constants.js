@@ -1,5 +1,5 @@
 export const TimeLineData = [
-    { year: 2022, text: 'Completed Six months Internship through Offsides Technoligies from September-2022 To Feburary-2023', },
+    { year: 2022, text: 'Completed Six months Internship through dev-holistic from September-2022 To Feburary-2023', },
 ];
 export const EducationData = [
     { year: 2017, text: 'Completed Secondary Education from Cork`s Boys Secondary School Karachi (BSEK)', },
