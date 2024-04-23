@@ -27,6 +27,15 @@ export const links = [
 ] as const;
 
 export const experiencesData = [
+  
+    {
+    title: "Frontend Developer",
+    location: "Onsite",
+    description:
+      "Completed Six Months of Internship from Off-sides Technologies.",
+    icon: React.createElement(CgWorkAlt),
+    date: "March-2023 - Aug-2023",
+  },
   {
     title: "React UI Intern",
     location: "Remote",
@@ -36,12 +45,12 @@ export const experiencesData = [
     date: "Sep-2023 - Nov-2023",
   },
   {
-    title: "Front-End Developer Intern",
+    title: "React UI Designer and Developer",
     location: "Remote",
     description:
-      "Completed three months of internship from dev-holistic",
+      "Completed Five months of Job from dev-holistic",
     icon: React.createElement(CgWorkAlt),
-    date: "May-2023 - July-2023",
+    date: "Dec-2023 - Apr-2024",
   },
 ] as const;
 
@@ -84,7 +93,9 @@ export const skillsData = [
   "JSX",
   "React",
   "Next.js",
+  "Responsive Design",
   "Git",
-  "Tailwind",
+  "Tailwind.css",
   "Redux",
+   "Component Libraries (Ant-Design, Material UI and React Bootstrap)",
 ] as const;
