@@ -29,7 +29,7 @@ export const links = [
 export const experiencesData = [
   
     {
-    title: "Frontend Developer",
+    title: "Frontend Developer Intern",
     location: "Onsite",
     description:
       "Completed Six Months of Internship from Off-sides Technologies.",
@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
       "Completed Five months of Job from dev-holistic",
     icon: React.createElement(CgWorkAlt),
-    date: "Dec-2023 - Apr-2024",
+    date: "Dec-2023 - Mar-2024",
   },
 ] as const;
 
@@ -93,7 +93,7 @@ export const skillsData = [
   "JSX",
   "React",
   "Next.js",
-  "Responsive Design",
+  "Responsive Web Design",
   "Git",
   "Tailwind.css",
   "Redux",
