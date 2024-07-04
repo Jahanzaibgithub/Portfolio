@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 import Link from "next/link";
 import { BsArrowRight, BsLinkedin } from "react-icons/bs";
 import { HiDownload } from "react-icons/hi";
-import { FaGithubSquare } from "react-icons/fa";
+import { FaGithubSquare, FaGlobe } from "react-icons/fa";
 import { useSectionInView } from "@/lib/hooks";
 import { useActiveSectionContext } from "@/context/active-section-context";
 
@@ -87,7 +87,7 @@ export default function Intro() {
 
         <a
           className="group bg-white px-7 py-3 flex items-center gap-2 rounded-full outline-none focus:scale-110 hover:scale-110 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10"
-          href="/JahanzaibResume.pdf"
+          href="/JahanzaibResume.jfif"
           download
         >
           Download Resume{" "}
@@ -109,7 +109,14 @@ export default function Intro() {
         >
           <FaGithubSquare />
         </a>
-      
+      <a
+  className="bg-white p-4 text-gray-700 flex items-center gap-2 text-[1.35rem] rounded-full focus:scale-[1.15] hover:scale-[1.15] hover:text-gray-950 active:scale-105 transition cursor-pointer borderBlack dark:bg-white/10 dark:text-white/60"
+  href="https://figma-2-in-next-js.vercel.app/"
+  target="_blank"
+>
+  <FaGlobe />
+</a>
+
 
       </motion.div>
     </section>
