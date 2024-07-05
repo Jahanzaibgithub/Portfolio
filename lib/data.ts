@@ -55,29 +55,26 @@ export const experiencesData = [
 ] as const;
 
 export const educationsData = [
+  {
+   title: "Cork's Govt. Boys Secondary School",
+   description:
+     "Biology Science",
+   icon: React.createElement(FaGraduationCap),
+   date: "May-2015 - may-2017",
+ },
+ {
+   title: "Islamia Science College",
+   description:
+     "Pre-Engineering",
+   icon: React.createElement(FaGraduationCap),
+   date: "May-2017 - Sep-2019",
+ },
    {
-    title: "Virtual University",
-    location: "Karachi",
+    title: "Virtual University", 
     description:
       "Bachelor's business and Information Technology(BBIT).",
     icon: React.createElement(FaGraduationCap),
     date: "Sep-2022 - Sep-2026",
-  },
-  {
-    title: "Islamia Science College",
-    location: "Karachi",
-    description:
-      "Pre-Engineering",
-    icon: React.createElement(FaGraduationCap),
-    date: "May-2017 - Sep-2019",
-  },
-   {
-    title: "Cork's Govt. Boys Secondary School",
-    location: "Karachi",
-    description:
-      "Biology Science",
-    icon: React.createElement(FaGraduationCap),
-    date: "May-2015 - may-2017",
   },
 
 ] as const;
