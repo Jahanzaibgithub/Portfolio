@@ -34,7 +34,7 @@ export const experiencesData = [
     description:
       "Completed Three Months of Internship from Off-sides Technologies.",
     icon: React.createElement(CgWorkAlt),
-    date: "July-2023 - Sep-2023",
+    date: "January-2024 - March-2024",
   },
   {
     title: "React UI Intern",
@@ -42,7 +42,7 @@ export const experiencesData = [
     description:
       "Completed three Months of Internship from Optimizia.",
     icon: React.createElement(CgWorkAlt),
-    date: "Nov-2023 - Dec-2023",
+    date: "April-2024 - June-2024",
   },
   {
     title: "Front-end developer",
@@ -50,7 +50,7 @@ export const experiencesData = [
     description:
       "Completed Six months of Project base Job from dev-holistic",
     icon: React.createElement(CgWorkAlt),
-    date: "Jan-2024 - June-2024",
+    date: "August-2024 - January-2025",
   },
 ] as const;
 
